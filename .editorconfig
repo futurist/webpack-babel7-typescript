@@ -3,6 +3,7 @@ root = true
 # Unix-style newlines with a newline ending every file
 [*]
 charset = utf-8
+indent_style = tab
 end_of_line = lf
 insert_final_newline = true
 
@@ -10,10 +11,6 @@ insert_final_newline = true
 [*.py]
 indent_style = space
 indent_size = 4
-
-# Tab indentation (no size specified)
-[Makefile]
-indent_style = tab
 
 # Indentation override for all JS under lib directory
 [*.{js,jsx,ts,tsx}]
