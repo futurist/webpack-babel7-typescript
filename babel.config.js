@@ -1,10 +1,15 @@
 module.exports = {
   presets: [
-    '@babel/env',
+    '@babel/preset-env',
+    '@babel/preset-react',
     '@babel/preset-typescript'
   ],
   plugins: [
     '@babel/proposal-class-properties',
     '@babel/proposal-object-rest-spread'
-  ]
+  ],
+  overrides: [{
+    test: ["./node_modules"],
+    presets: []
+  }]
 }

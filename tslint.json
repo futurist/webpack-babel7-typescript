@@ -3,5 +3,8 @@
     "tslint-react",
     "tslint-config-standard",
     "tslint-eslint-rules"
-  ]
+  ],
+  "rules":{
+    "space-before-function-paren": [true, "never"]
+  }
 }

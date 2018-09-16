@@ -20,6 +20,7 @@ const config = {
   },
   mode: project.env,
   resolve: {
+    extensions: [".ts", ".tsx", ".js", ".json"],
     modules: [project.src, 'node_modules']
   },
   module: {

@@ -1,4 +1,7 @@
-import './index.less'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-const x: string = 'asoidfj'
-console.log(x)
+import './index.less'
+import Hello from './components/hello'
+
+ReactDOM.render(<Hello />, document.getElementById('app'))
