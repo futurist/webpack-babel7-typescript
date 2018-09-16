@@ -115,7 +115,7 @@ const config = {
       filename: 'css/main.[chunkhash].css',
       chunkFilename: 'css/main.[contenthash:5].css'
     }),
-    isProduction && new CopyWebpackPlugin([{
+    new CopyWebpackPlugin([{
       from: path.join(project.src, 'static'),
       to: path.join(project.dist)
     }]),
